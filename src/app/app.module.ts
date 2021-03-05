@@ -9,10 +9,10 @@ import { ToastrService } from './common/toastr.service';
 import { EventDetailsComponent } from './events/event-details/event-details.component';
 import { appRoutes } from './routes'
 import { RouterModule } from '@angular/router';
-import { CreatEventComponent } from './events/shared/create-event.component';
 import { Error404Component } from './errors/404.component';
 import { EventRouteActivator } from './events/event-details/event-route-activator.service';
 import { EventListResolver } from './events/events-list-resolver.service';
+import { CreatEventComponent } from './events/create-event.component';
 
 @NgModule({
   imports: [
