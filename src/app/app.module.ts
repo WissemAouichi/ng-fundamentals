@@ -6,7 +6,13 @@ import { ToastrService } from './common/toastr.service';
 import { appRoutes } from './routes'
 import { RouterModule } from '@angular/router';
 import { Error404Component } from './errors/404.component';
-import { CreatEventComponent, EventListResolver, EventRouteActivator, EventDetailsComponent,EventService, EventsListComponent, EventThumbnailComponent
+import { CreatEventComponent, 
+         EventListResolver, 
+         EventRouteActivator, 
+         EventDetailsComponent,
+         EventService, 
+         EventsListComponent, 
+         EventThumbnailComponent
  } from './events/index'
 
 @NgModule({
