@@ -36,6 +36,7 @@ export class CreateSessionComponent implements OnInit {
             level: this.level,
             abstract: this.abstract
         })
+        console.log(this.newSessionForm)
     }
 
     saveSession(formValue) {
@@ -49,5 +50,8 @@ export class CreateSessionComponent implements OnInit {
             voters: []
         }
         console.log(session)
+    }
+    onClick(){
+        console.log(this.newSessionForm)
     }
 }
