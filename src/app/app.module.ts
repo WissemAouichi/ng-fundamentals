@@ -12,7 +12,8 @@ import { CreatEventComponent,
          EventDetailsComponent,
          EventService, 
          EventsListComponent, 
-         EventThumbnailComponent
+         EventThumbnailComponent,
+         CreateSessionComponent
  } from './events/index'
 import { AuthService } from './user/auth.service';
 
@@ -28,7 +29,8 @@ import { AuthService } from './user/auth.service';
     NavBarComponent,
     EventDetailsComponent,
     CreatEventComponent,
-    Error404Component
+    Error404Component,
+    CreateSessionComponent
   ],
   providers: [
     EventService,
