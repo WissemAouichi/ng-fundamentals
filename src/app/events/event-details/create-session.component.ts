@@ -38,7 +38,11 @@ export class CreateSessionComponent implements OnInit {
         })
         console.log(this.newSessionForm)
     }
-
+private restrictedWord(control:FormControl):{[key: string]:any}{
+return control.value.includes('foo')
+? {'restrictedWords':'foo'}
+: null
+}
     saveSession(formValue) {
         let session: ISession = {
             id: undefined,
